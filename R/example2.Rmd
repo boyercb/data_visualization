@@ -1,0 +1,30 @@
+---
+title: "Data Visualization with R: Interactive Graphics"
+author: "Christopher Boyer"
+date: "August 17, 2015"
+---
+
+```{r}
+# required packages
+library(ggvis)
+
+# load flight data set
+load()
+```
+# Introduction
+The `ggvis` package is an extension of `ggplot` developed by Hadley Wickham
+that incorporates elements of modern web design to create interactive/manipulatable
+graphics. This is accomplished by moving away from static rendering in `.png`, `.jpg`,
+or `.eps` to html5 and vega.js.
+
+## scatter plots
+s
+## bar charts
+
+## stacked bar charts
+
+## heatmap
+
+## regressions
+
+##

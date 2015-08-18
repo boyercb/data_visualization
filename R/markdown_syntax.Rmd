@@ -1,0 +1,43 @@
+---
+title: "Rmarkdown Sample Document"
+author: "Christopher Boyer"
+date: "August 17, 2015"
+---
+This is an R markdown document. Markdown is a simple formatting syntax for
+authoring web pages. By combining knitr, pandoc, markdown, and R we can write
+dynamic documents that can be exported to a variety of common document types.
+
+# This is header 1
+Use an asterik mark to provide emphasis such as *italics* or **bold**.
+
+Create lists with a dash:
+- Item 1
+- Item 2
+- Item 3
+
+Or enumerated lists with a number followed by a period and a space:
+1. First thought
+2. Second thought
+3. Third thought
+
+You can also include equations by using dollar signs. Use one dollar sign to
+create in-line equations $E = mc^2$ or two dollar signs for centered display
+equations:
+
+$$
+\textrm{logit}[y_{i}] = \beta_{0} + \beta_{1} x_{i} + \epsilon_{i}
+$$
+
+The dynamic power of R markdown is the ability to embed R code directly within
+formatted documents.
+
+For example, you can include in-line code with offset back-ticks.
+The sum of 23 and 2 is `r  23 + 2`.
+
+Or, for more extended code segments, you can delimit "code blocks" by using three
+back-ticks
+
+```{r qplot, fig.width = 4, fig.height = 4, message = F}
+library(ggplot2)
+qplot(speed, dist, data = cars) + geom_smooth()
+```

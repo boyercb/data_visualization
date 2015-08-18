@@ -1,0 +1,32 @@
+Data Visualization in R+
+========================
+# What is data visualization?
+
+# Motivating Example
+
+# Brainstorm: What are the visual elements that Minard uses to convey information?
+
+# Disclaimer
+
+- The purpose of this presentation is not to teach you all the intricacies of programming in R,
+  rather I intend to provide a comprehensive picture of the theory behind the development of
+  memorable visualizations coupled with brief introductions to a number of tools that you can
+  utilize to make your own visualizations.
+
+# Background
+- information visualization is the process of transforming abstract data into more
+  digestible geometries that reveal hidden patterns and relationships in the data.
+// modes of visualization
+- interactive visualization
+- presentation visualization
+- data story-telling
+
+# Software
+
+# Example 1
+
+# Example 2
+
+# Example 3
+
+# Blogging with RMarkdown

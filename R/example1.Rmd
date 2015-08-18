@@ -1,0 +1,34 @@
+---
+title: "Data Visualization with R: The Grammar of Graphics"
+author: "Christopher Boyer"
+date: "August 17, 2015"
+---
+
+```{r}
+# required packages
+library(ggplot2)
+
+# load data set
+load()
+```
+# Introduction
+The `ggplot` package is based on _The Grammar of Graphics_. Its purpose is to
+serve as a simple declarative framework for building rich (but static) 2D and 3D
+charts and graphs.
+
+All `ggplot` plots begin with the base function `ggplot()` in which the base data
+frame and plot variables are specified.
+
+## scatter plots
+
+## bar charts
+
+## stacked bar charts
+
+## multiples (facets)
+
+## heatmap
+
+## regressions
+
+##  
